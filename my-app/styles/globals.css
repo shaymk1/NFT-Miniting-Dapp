@@ -6,15 +6,15 @@
 
 :root {
   --font-family: 'Open Sans', sans-serif;
-  --clr-light: #fec5bb;
-  --clr-purple: #d8e2dc;
-  --clr-pink: #e8e8e4;
-  --clr-yellow: #ece4db;
+  --clr-light: #f0e9e9;
+  --clr-purple: #9b5de5;
+  --clr-pink: #f15bb5;
+  --clr-yellow: #fee440;
   --clr-blue: #00bbf9;
   --clr-green: #00f5d4;
-  --clr-selection-bg: #ffd7ba;
+  --clr-selection-bg: #cb3d92;
   --clr-selection-text: #f4f0f0;
-  --clr-background: #fec89a;
+  --clr-background: #06070a;
 
   /* Customize Wallet Modal */
   /* CUSTOMIZE THE COLOR  PALLETTE */
