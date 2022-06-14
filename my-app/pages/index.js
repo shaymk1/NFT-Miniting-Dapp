@@ -16,17 +16,16 @@ export default function Home() {
           {/* Logo */}
           <Link href="#">
             <a className="text-xl font-bold font-coiny md:text-3xl">
-              <span className="pr-2 text-transparent bg-gradient-to-br from-brand-blue to-brand-purple bg-clip-text ">
-                Bored
-              </span>
+              <span className="pr-2 text-rose-500 ">Bored</span>
               Ape
             </a>
           </Link>
 
           {/* Opensea Twitter Discord Links */}
+          {/* Opensea Twitter Discord Links */}
           <nav aria-label="Contact Menu">
-            <ul className="flex items-center space-x-4 md:space-x-6">
-              <li className="cursor-pointer">
+            <ul className="flex items-center space-x-4 md:space-x-6 ">
+              <li className="cursor-pointer ">
                 <a href="https://opensea.io" target="_blank" rel="noreferrer">
                   <svg
                     className="w-6 h-6 md:w-8 md:h-8"
@@ -84,6 +83,7 @@ export default function Home() {
         </div>
       </header>
 
+      {/* main section */}
       <div className="container flex flex-col items-center w-full h-full max-w-5xl pt-4 mx-auto">
         <div className="flex flex-col items-center w-full max-w-4xl">
           <Link href="/mint" passHref>

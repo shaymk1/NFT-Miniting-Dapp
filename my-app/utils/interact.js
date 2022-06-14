@@ -1,12 +1,12 @@
 // const { createAlchemyWeb3 } = require('@alch/alchemy-web3')
 const { MerkleTree } = require('merkletreejs')
 const keccak256 = require('keccak256')
-const whitelist = require('../scripts/whitelist.js')
+// const whitelist = require('../scripts/whitelist.js')
 
 // const web3 = createAlchemyWeb3(process.env.NEXT_PUBLIC_ALCHEMY_RPC_URL)
 import { config } from '../dapp.config'
 
-const contract = require('../artifacts/contracts/BoredApe.sol/BoredApe.json')
+// const contract = require('../artifacts/contracts/BoredApe.sol/BoredApe.json')
 const nftContract = new web3.eth.Contract(contract.abi, config.contractAddress)
 
 // Calculate merkle root from the whitelist array
