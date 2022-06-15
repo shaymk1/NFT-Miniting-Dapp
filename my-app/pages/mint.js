@@ -1,3 +1,5 @@
+import { initOnboard } from '../utils/onboard'
+
 export default function Mint() {
   return (
     <div className="flex flex-col items-center justify-center w-full h-full min-h-screen overflow-hidden bg-brand-background ">
@@ -89,7 +91,10 @@ export default function Mint() {
                 </div>
               </div>
               {/*mint button */}
-              <button className="w-full px-6 py-3 mx-4 mt-12 text-2xl tracking-wide text-white uppercase rounded-md shadow-lg font-coiny bg-gradient-to-br from-brand-purple to-brand-pink hover:shadow-pink-400/50">
+              <button
+                className="w-full px-6 py-3 mx-4 mt-12 text-2xl tracking-wide text-white uppercase rounded-md shadow-lg font-coiny bg-gradient-to-br from-brand-purple to-brand-pink hover:shadow-pink-400/50"
+                
+              >
                 Connect Wallet
               </button>
             </div>
@@ -98,7 +103,7 @@ export default function Mint() {
 
           <div className=" border border-brand-pink-400  rounded-md text-start h-full px-4 py-4 w-full mx-auto mt-8 md:mt-4">
             <p className="flex flex-col space-y-2 text-white text-sm md:text-base break-words ...">
-             Something went wrong here!
+              Something went wrong here!
             </p>
           </div>
           {/*contract address */}

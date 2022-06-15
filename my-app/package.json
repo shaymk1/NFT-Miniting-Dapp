@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@walletconnect/web3-provider": "^1.7.8",
     "@web3-onboard/core": "^2.2.12",
     "@web3-onboard/injected-wallets": "^2.0.9",
     "@web3-onboard/react": "^2.1.8",
@@ -17,7 +18,8 @@
     "merkletreejs": "^0.2.31",
     "next": "12.1.6",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "use-onboard": "^0.2.8"
   },
   "devDependencies": {
     "eslint": "8.15.0",
